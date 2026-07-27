@@ -1,0 +1,71 @@
+.body {background-color: #000000;
+}
+.product-image-wrap {
+      background: white;
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: 0 24px 60px rgba(15, 23, 42, .12);
+      position: relative;
+      overflow: hidden;
+}
+
+.product-image-wrap::before {
+      content: "";
+      width: 210px;
+      height: 210px;
+      border-radius: 50%;
+      background: rgba(37, 99, 235, .12);
+      position: absolute;
+      left: -55px;
+      bottom: -55px;
+}
+
+.product-image {
+      width: 100%;
+      max-height: 540px;
+      object-fit: contain;
+      position: relative;
+      z-index: 1;
+    }
+
+.feature-card {
+      height: 100%;
+      border: 0;
+      border-radius: 18px;
+      padding: 18px;
+      background: #b4edd2;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, .07);
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 16px 35px rgba(15, 23, 42, .12);
+    }
+
+ .feature-card h5 {
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    .hero {
+        padding-top: 50px;
+      }
+
+      .product-image-wrap {
+        margin-bottom: 38px;
+      }
+
+      .hero h1 {
+        font-size: 3rem;
+      }
+
+    .navbar-text {
+      font-size: 2.25rem;
+    }
+
+ footer {
+      background: #f9f8f8;
+      color: #000000;
+      padding-bottom: 115px;
+    }
